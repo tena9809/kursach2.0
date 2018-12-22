@@ -1,0 +1,4 @@
+Login;Password;isAdmin;
+kjgh;46792755;false;
+tena;46792755;false;
+natya;48690;true;

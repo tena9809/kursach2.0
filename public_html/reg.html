@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration</title>
+</head>
+<body>
+<p>&nbsp;</p>
+<form action="http://localhost:8080/reg" method="post">
+    <p><strong>Введите свои данные</strong></p>
+    <p>Логин:<input name="login" type="text" /></p>
+    <p>Пароль:<input name="pass" type="password" /></p>
+    <p>Админ/Пользователь:<select id="selectvalue" name="selectparam">
+        <option name="admin">Admin</option>
+        <option name="user">User</option>
+    </select></p>
+    <p>
+        Если вы являетесь администратором введите в поле кодовое слово:
+    <p>
+        <input name="codeword" type="text" />
+    </p>
+    </p>
+    <p><input type="submit" /></p>
+</form>
+</body>
+</html>

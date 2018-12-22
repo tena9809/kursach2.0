@@ -1,0 +1,3 @@
+Name;Cost;Count;Photo;Category;
+cream;200;5;photos//jmXib-tTg-0.jpg;forFace;
+shampoo;150;5;photos//nail.jpg;forHair;

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add</title>
+
+</head>
+<body>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="http://localhost:8080/add" enctype="multipart/form-data" method="post">
+    <p><strong>Введите данные товара</strong></p>
+    <p>Название:<input name="name" type="text" /></p>
+    <p>Выберите категорию:</p><select id="selectvalue" name="selectparam">
+        <option name="uzl">For face</option>
+        <option name="uzv">For hair</option>
+    <option name="uzt">For body</option>
+    <option name="mac">MakeUp</option>
+    </select></p>
+    <p>Количество:<input name="count" type="text" /></p>
+    <p>Цена:<input name="cost" type="text" /></p>
+    <p>Картинка товара:</p><p><input type="file" name="photo" accept="image/*">
+    <p><input type="submit" /></p>
+</form>
+</body>
+</html>
